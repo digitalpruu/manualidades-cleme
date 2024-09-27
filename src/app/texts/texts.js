@@ -1,9 +1,9 @@
 const title = "Manualidades Cleme";
-const email = ""; // Información no proporcionada
+const email = "clemenciaurriago@gmail.com";
 const mensajeWhatsApp = encodeURIComponent(
-    "¡Hola! Estoy muy interesado en tus productos de " + title + " y me gustaría recibir más información sobre ellos. Espero poder hablar pronto contigo para aclarar algunas dudas. ¡Gracias!"
+    "¡Hola! Estoy interesado en conocer más sobre los productos de " + title + " y me gustaría obtener más información. ¡Gracias!"
 );
-const numeroWhatsApp = ""; // Información no proporcionada
+const numeroWhatsApp = "+573107977558"; // Incluido el prefijo +57
 
 const textos = {
     index: {
@@ -13,8 +13,7 @@ const textos = {
         title: title,
     },
     about: {
-        description1: "Manualidades Cleme ofrece una variedad de productos creativos y únicos, incluyendo manualidades navideñas, bisutería, y una selección de blusas y blusones. Cada pieza está cuidadosamente elaborada para aportar un toque especial a tus festividades y estilo personal.",
-        description2: "Nos apasiona el arte y la creatividad, y estamos comprometidos en brindar productos que no solo destaquen por su belleza, sino también por su calidad y originalidad."
+        description1: "En Manualidades Cleme, nos dedicamos a la creación de hermosas manualidades navideñas, bisutería y la venta de blusas y blusones únicos. Creemos en el poder del trabajo creativo para transformar cualquier ocasión en algo especial.",
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
@@ -22,14 +21,14 @@ const textos = {
     },
     footer: {
         slogan: {
-            p1: "Trabajar es poder",
-            p2: "" // Información no proporcionada
+            p1: "Trabajar es poder.", // Slogan proporcionado
+            p2: ""
         },
         address: "", // Información no proporcionada
         phone: numeroWhatsApp,
         email: email,
-        facebook: "", // Información no proporcionada
-        instagram: "", // Información no proporcionada
+        facebook: "https://www.facebook.com", // Link base ya que no se proporcionó uno específico
+        instagram: "https://www.instagram.com", // Link base ya que no se proporcionó uno específico
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
     },
 };
