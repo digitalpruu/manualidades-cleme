@@ -27,7 +27,7 @@ const textos = {
         address: "", // Información no proporcionada
         phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com", // Link base ya que no se proporcionó uno específico
+        facebook: "https://www.facebook.com/profile.php?id=61565512817892&mibextid=ZbWKwL", // Link base ya que no se proporcionó uno específico
         instagram: "https://www.instagram.com", // Link base ya que no se proporcionó uno específico
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
     },
